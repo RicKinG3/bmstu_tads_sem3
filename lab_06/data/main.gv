@@ -1,0 +1,15 @@
+digraph test_tree {
+m [label=" m 3 "];fa [label=" fa 1 "];m -> fa;
+s [label=" s 1 "];m -> s;
+fa [label=" fa 1 "];c [label=" c 2 "];fa -> c;
+i [label=" i 2 "];fa -> i;
+c [label=" c 2 "];b [label=" b 2 "];c -> b;
+e [label=" e 1 "];c -> e;
+b [label=" b 2 "];e [label=" e 1 "];i [label=" i 2 "];h [label=" h 1 "];i -> h;
+k [label=" k 1 "];i -> k;
+h [label=" h 1 "];k [label=" k 1 "];s [label=" s 1 "];r [label=" r 1 "];s -> r;
+w [label=" w 2 "];s -> w;
+r [label=" r 1 "];n [label=" n 1 "];r -> n;
+n [label=" n 1 "];w [label=" w 2 "];u [label=" u 1 "];w -> u;
+y [label=" y 1 "];w -> y;
+u [label=" u 1 "];y [label=" y 1 "];}
