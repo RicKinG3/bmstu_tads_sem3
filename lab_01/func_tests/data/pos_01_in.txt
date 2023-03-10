@@ -1,9 +1,0 @@
-Volnyaga
-Maxim
-1 1 1 1
-Buldakov
-Misha
-5 5 5 5
-Volnfyaga
-Maxfim
-1 2 1 1
